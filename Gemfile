@@ -53,7 +53,7 @@ gem 'feedjira'
 # use pry instead of irb in console
 gem 'pry-rails'
 
-gem 'mecab'
+gem 'mecab', '0.996'
 gem 'natto'
 
 gem 'matrix'
@@ -69,3 +69,7 @@ gem 'action_args'
 
 # 定期的にバッチ処理回すために
 gem 'whenever'
+
+# herokuのため
+gem 'puma'
+gem 'rails_12factor'
